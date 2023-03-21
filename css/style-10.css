@@ -1,0 +1,26 @@
+/* genel olarak tüm linklerin stillerini değiştirmek için kullanılır*/
+a{
+    color: green;
+    text-decoration: none;
+}
+
+/*ziyaret edilmemiş linklerin rengi*/
+a:link{
+    color:chocolate
+}
+
+/*ziyaret edilmiş linklerin rengi*/
+a:visited{
+    color:rgb(red, green, blue)
+}
+/* üzerine fare ile gelindiğinde*/
+a:hover{
+   background-color: aqua;
+   text-decoration: underline;
+}
+
+.title:hover{
+    color: red;
+    cursor:crosshair;
+}
+/* cursor: farenin imlecini değiştiriyor. + yaptı*/
