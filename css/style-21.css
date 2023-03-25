@@ -1,0 +1,25 @@
+nav.main-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav.main-menu li{
+    display: inline-block;
+    /*menuyu yan yana getirdi*/
+    
+}
+
+nav.main-menu li a{
+    display: inline-block;
+    background-color: darkturquoise;
+    padding: 8 px 20px;
+    text-decoration: none;
+    color: beige;
+    /*a yı genislettik sadece yazının üstüne gelince değil padding alanını tıklanabilir yaptık*/
+}
+nav.main-menu li a:hover{
+    background-color: rgb(0, 106, 108);
+    color: white;
+    /*fare üzerine geldiğinde rengi değiştirdik*/
+}

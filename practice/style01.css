@@ -1,0 +1,30 @@
+:root{
+    --color1: white;
+    --color2: brown;
+}
+.title{
+    padding: 0;
+    margin: 0;
+    background-color: var(--color1);
+    
+}
+
+.pic1 img{
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+.pic2 img{
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+.pic3 img{
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+.title td a{
+ text-decoration: none;
+}
+.title a:hover{
+    background-color: var(--color2)
+}
+

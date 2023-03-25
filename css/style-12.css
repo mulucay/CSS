@@ -1,0 +1,38 @@
+/*body nin yüksekliği yok. o yüzden childların yükseklğini yüzde % olarak ayarlayamıyoruz
+ancak body e yükseklik verebiliriz. height i yüzde yüz yaparız
+yüksekliklerde ve genişliklerde parent baz alınıyor. parentin yüzde kaçı kadar genişletiyor yükseltiyoruz
+vw-viewport tarayının açık ekranına göre ayarlıyor. parente göre bakmaz. açık ekran yani vw e göre ayarlıyor
+em-parent font büyüklüğüne endekslidir. parente göre büyür ya da küçülür
+rem-en parentin elementinin font-size ına göre göre yani body nin font-size nına göre ayarlıyor.yani html e göre ayarlıyor kendini
+*/
+html,body{
+    height: 100%;
+    font-size: 1.2em;
+}
+
+.kutu1{
+    background-color: aqua;
+    width: 3cm;
+    height: 40%;
+    
+}
+
+.kutu2{
+    background-color: red;
+    width: 300px;
+}
+
+.kutu3{
+    background-color: blue;
+   width: 50%;
+   font-size: 2rem;
+}
+.kutu4{
+    background-color: burlywood;
+   width: 50%;
+   font-size: 2rem;
+}
+.kutu5{
+    background-color: coral;
+   width: 50vw;
+}

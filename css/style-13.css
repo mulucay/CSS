@@ -1,0 +1,27 @@
+.kutu1{
+background-color: blue;
+margin-bottom: 30px;
+
+}
+
+.kutu2{
+background-color: red;
+margin: 20px;
+padding: 10px;
+}
+em{
+    padding: 20px;
+}
+/*
+margin-top:üstten veriyor boşluğu
+margin-right:sağ
+margin-left:sol
+margin-bottom:alt
+
+padding-top
+padding-right
+padding-left
+padding-bottom
+
+inline elementler sadece yatay padding ve margin alırlar
+*/

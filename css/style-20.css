@@ -1,0 +1,17 @@
+.title{
+    background-color: aqua;
+    padding: 30px;
+    display: inline-block;
+}
+
+em{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+/*display: inline yaptığımızda blok özelliği ortdan kalkıyor. h1 tüm satırı kaplyordu
+ama display ile inline ı yanına getirdik. em de inline özelliğe sahip bir element.
+onu da block yaparak tüm satırı kaplamış olur. inline-block ise elemanları hem yan yana getirme hem de onların
+padding margin sorunlarının olmamasını istediğimiz zaman kullanıyoruz.
+none ise elemanı gizliyor.*/
