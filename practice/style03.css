@@ -1,0 +1,49 @@
+.menu li{
+    
+    display: inline-block;   
+    
+}
+.menu{
+    text-align: center;
+    background-color: orange;
+    
+}
+.menu li a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 2rem;
+   
+}
+
+.menu li a:hover{
+  color: rgb(44, 44, 44);
+}
+.menu li a::after{
+    content: "";
+    display: inline-block;
+    width:3px;
+    height:20px;
+    background-color: rgb(180, 123, 123);
+    margin-left:10px;
+}
+.menu li a.subat::after{
+    content: "";
+    display: inline-block;
+    width:0;
+    height:0;
+    background-color: orange;
+   
+   
+}
+.menu li a.subat{
+    padding-right: 0;
+}
+
+.menu button{
+    font-size: 2rem;
+    background-color: orange;
+    border:0;
+    margin-left: 0;
+   
+}

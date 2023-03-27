@@ -9,17 +9,8 @@
     
 }
 
-.pic1 img{
-    padding-top: 1rem;
-    padding-right: 2rem;
-}
-.pic2 img{
-    padding-top: 3rem;
-    padding-right: 2rem;
-}
-.pic3 img{
-    padding-top: 3rem;
-    padding-right: 2rem;
+.title td{
+    vertical-align: top;
 }
 .title td a{
  text-decoration: none;
