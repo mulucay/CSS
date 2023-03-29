@@ -1,0 +1,29 @@
+nav.menu ul{
+    display: none;
+    list-style-type: none;
+    background-color: rgb(180, 179, 179);
+    margin:0;
+    padding: 0;
+}
+nav.menu input{
+   display: none;
+    
+}
+nav.menu input:checked+ul{
+    display:block;
+}
+
+nav.menu ul a{
+    text-decoration: none;
+    color: rgb(248, 245, 245); 
+       
+    
+}
+nav.menu ul a:hover{
+    color: rgb(57, 56, 56);
+}
+nav.menu ul a::before{
+    content: "::";
+    color: black;
+    margin-right: 15px;
+}
