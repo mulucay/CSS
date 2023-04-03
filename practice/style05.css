@@ -1,0 +1,96 @@
+
+
+
+.product-table thead{
+    background-color: rgb(58, 58, 58);    
+}
+
+.product-table thead td{
+    color: white;    
+}
+.product-table tfoot{
+    background-color:  rgb(58, 58, 58);    
+}
+.product-table tbody td{
+    padding: 10px 0px 10px 0px;
+}
+
+.product-table tfoot td{
+    color: white;    
+}
+.product-table tbody td:nth-child(1){
+    text-align: left;
+ }
+.product-table tbody td:nth-child(2){
+    text-align: left;
+    padding-right: 100px;
+ }
+.product-table tbody td:nth-child(3){
+   text-align: center;
+}
+.product-table tbody td:nth-child(4){
+    text-align: right;
+ }
+ .product-table tbody td:nth-child(5){
+    text-align: right;
+ }
+ .product-table tbody td:last-child{
+    text-align: right;
+    padding-right: 10px 10px 10px 10px;
+ }
+
+.product-table tbody tr:nth-child(odd){
+    background-color: rgb(164, 164, 164);
+}
+.product-table tbody tr:nth-child(even){
+    background-color: rgb(207, 206, 206);
+}
+
+.product-table tbody td:hover{
+    cursor: pointer;
+    color: red;
+}
+.product-table2{
+    text-align: right;
+}
+
+.product-table2 td{
+    background-color:rgb(245, 124, 81);
+    color: white;    
+}
+.product-table2 td:first-child{
+    position: relative;
+    right: -230px;
+}
+.product-table2 td:last-child{
+ 
+   position: relative;
+   right: -240px;   
+}
+.product-table2 td:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.product-table2 td:nth-child(1)::before{
+    font: var(--fa-font-solid);
+    content: "\f07a";
+    margin-right: 5px;
+    color: rgb(36, 36, 36);
+}
+.product-table2 td:nth-child(2)::before{
+    font: var(--fa-font-solid);
+    content: "\f09d";
+    margin-right: 5px;
+    color: rgb(36, 36, 36);
+}
+
+
+
+
+
+
+                  
+
+
+

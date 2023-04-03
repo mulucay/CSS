@@ -9,8 +9,11 @@ nav.menu input{
    display: none;
     
 }
+nav.menu label{
+    display: block;
+}
 nav.menu input:checked+ul{
-    display:block;
+    display:inline-block;
 }
 
 nav.menu ul a{

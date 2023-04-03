@@ -1,0 +1,48 @@
+body{
+    background-color: var(--color1);
+}
+:root{
+ --color1:gray;
+ --color2:brown;
+ --color3:pink;
+ --color4:white;
+}
+
+.table{
+   
+    display: flex;
+    flex-direction: column;
+}
+.table button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: var(--color2);
+    color: var(--color4);
+    border: 0;
+    font-size: 4rem;
+}
+
+.table div:first-child{
+   
+    height: 20px;
+    background-color: var(--color3);
+    display: flex;
+   
+}
+.table div:last-child{
+    background-color: var(--color4);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.table div:last-child h2{
+    font-size: 45px;
+}
+.table div span:first-child{
+    background-color: brown;
+    flex: 1;
+}
+.table div span:last-child{
+    flex: 7;
+}
