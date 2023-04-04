@@ -1,0 +1,16 @@
+.search{
+    display: inline-block;
+    position: relative;
+    
+}
+.search input{
+    padding: 5px;
+    border-radius: 5px;
+}
+.search i{
+    position: absolute;
+    right:5px;
+    top:4px;
+    bottom: 1px;
+    
+}
