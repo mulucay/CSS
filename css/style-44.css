@@ -2,5 +2,11 @@
     width:200px;
     height: 200px;
     background-color: red;
-    transform: translate(50%, 300px);
+    transform: translateX(50%) skew(45deg);
 }
+.img-iphone{
+    transform: rotate(-60deg) scale(2);
+}
+/*scale büyütmek küçültmek için kullanılıyor 2 katına çıkardı elementi
+transforma yan yana istediğimiz kadar özellik vererek elementi değiştirebilirz
+skew ile de elementi eğip bükebiliriz. içerisine yazdığımız derece kadar eğilir.*/

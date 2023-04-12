@@ -1,0 +1,10 @@
+.title1{
+    font-size: 5rem;
+    color:aliceblue;
+    text-shadow: 0 0 2px black;
+}
+.title2{
+    font-size: 5rem;
+    color:aliceblue;
+    text-shadow: 0 0 2px black, 5px 5px 15px red;
+}
