@@ -1,0 +1,136 @@
+
+
+
+section.banner{
+    display: flex;
+   align-items: center; 
+   justify-content: space-between; 
+   padding: 20px;
+   
+}
+section.banner img{
+    width:400px;
+    height: auto;
+    
+}
+section.banner nav.menu{
+    position: relative;
+}
+
+section.banner nav.menu label{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+@media screen and (min-width:768px) {
+    section.banner nav.menu label{
+        display: none;
+    }
+}
+section.banner nav.menu ul{
+    list-style-type: none;
+    padding: 15px 25px;
+    margin: 0;
+    background-color: green;
+    line-height: 30px;
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    section.banner nav.menu ul{
+        display: flex;
+        gap: 10px;
+        background: none;
+        
+    }
+}
+section.banner nav.menu ul a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-radius: 3px;
+}
+@media screen and (min-width:768px) {
+    section.banner nav.menu ul a{
+        background-color: green;
+        
+    }
+}
+section.banner nav.menu ul a:hover{
+    color:rgb(37, 36, 36)
+}
+section.banner nav.menu .chkMenu{
+    display: none;
+}
+section.banner nav.menu .chkMenu:checked + ul{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+
+
+
+section.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 40px;
+    padding: 25px;
+    
+}
+@media screen and (min-width:768px) {
+    section.main{
+        flex-direction: row;        
+    }
+    section.main .about{
+        flex:4 1;
+    }
+    section.main .product{
+        flex:2 1;
+    }
+    
+}
+section.main .about{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px) {
+    section.main .about{
+        flex-direction: row;        
+    }
+   
+}
+
+section.main img{
+    width: 400px;
+    height: auto;
+}
+section.main .product{
+    background-color: rgb(213, 212, 212);
+    display: flex;
+    flex-direction: column;   
+    flex: 0 1;
+    padding: 0 10px;
+    
+}
+section.main .product h2{
+   text-align: left;
+}
+
+section.footer img{
+    width:200px;
+    height: auto;
+}
+section.footer{
+    background-color: rgb(213, 212, 212);
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+section.footer ul{
+    list-style-type: none;
+}
+
+
